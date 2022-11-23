@@ -724,5 +724,5 @@
 
                         //    lineBreakCount(biotext)
 
-                           totalbio[x].querySelector("textarea").setAttribute("rows", lineBreakCount(biotext) +3)
+                           totalbio[x].querySelector("textarea").setAttribute("rows", lineBreakCount(biotext) +1)
                          }
