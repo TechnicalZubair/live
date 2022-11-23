@@ -695,7 +695,7 @@
                             var inp_text = namestyle[i].replace("[[Text]]", name);;
                             var textReady = `<div class="stylishtext"
         data-clipboard-text="`+ inp_text + `">
-        <p class="lunitoolsmirrorencode" id="copy_n_`+ i + `">` + inp_text + `</p>
+        <p class="text123" id="copy_n_`+ i + `">` + inp_text + `</p>
     </div>`;
                             contener.insertAdjacentHTML("beforeend", textReady);
                         }
